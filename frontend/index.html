@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <style>
+      .container {
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <div class="container" >
+      <div id="editor" ></div>
+  </div>
+
+  <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+  <script>
+      InlineEditor
+       .create(document.querySelector('#editor'))
+       .catch(error =>{
+          console.error(error)
+       });
+  </script>
+  </body>
+</html>
