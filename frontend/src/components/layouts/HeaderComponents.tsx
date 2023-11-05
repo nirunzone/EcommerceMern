@@ -6,7 +6,7 @@ function HeaderComponents() {
   
   return (
     <React.Fragment>
-      <div className="top-header">
+      <div className="top-header"  >
         <div className="container">
           <div className="top-header-container">
             <div className="top-header-left">

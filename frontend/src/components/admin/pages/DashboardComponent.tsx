@@ -411,7 +411,7 @@ function DashboardComponent() {
               </div>{/* End Right side columns */}
             </div>
           </section>
-        </main>{/* End #main */}
+        </main>{/* End #main */}p
         <AdminFooter/>
       </React.Fragment>
   )

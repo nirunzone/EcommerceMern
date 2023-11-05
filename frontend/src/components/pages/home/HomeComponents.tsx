@@ -9,13 +9,19 @@ import fclothes from '../../../assets/images/fclothes.jpg'
 import watch from '../../../assets/images/watch.jpg'
 import shoes from '../../../assets/images/shoes.jpg'
 import shoesg from '../../../assets/images/shoesg.jpg'
+// import BodyComponent from '../../layouts/BodyComponent'
 
 function HomeComponents() {
   return (
     <React.Fragment>
-      <HeaderComponents/>
+     <HeaderComponents/>
       <BannerComponents/>
+      
+      {/* <Link to="/about" className="btn btn-primary"><button className='btn btn-success'>CKEDITOR</button></Link> */}
+
+
       <div className="container">
+     
         <div className="row">
           <div className="col-md-12 mt-5 mb-5">
             <h1>Product List</h1>
@@ -28,7 +34,7 @@ function HomeComponents() {
         <div className="card-body">
           <h5 className="card-title">Grocery</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <Link to="/" className="btn btn-primary">Go to Groceries</Link>
+          <Link to="/cart" className="btn btn-primary">Go to Groceries</Link>
         </div>
       </div>
           </div>
@@ -38,7 +44,7 @@ function HomeComponents() {
         <div className="card-body">
           <h5 className="card-title">Male Clothes</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <Link to="/" className="btn btn-primary">Go to Male Clothes</Link>
+          <Link to="/cart" className="btn btn-primary">Go to Male Clothes</Link>
         </div>
       </div>
           </div>
@@ -48,7 +54,7 @@ function HomeComponents() {
         <div className="card-body">
           <h5 className="card-title">Female Clothes</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <Link to="/" className="btn btn-primary">Go to Female Clothes</Link>
+          <Link to="/cart" className="btn btn-primary">Go to Female Clothes</Link>
         </div>
       </div>
           </div>
@@ -58,7 +64,7 @@ function HomeComponents() {
         <div className="card-body">
           <h5 className="card-title">Watches</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <Link to="/" className="btn btn-primary">Go to Watches</Link>
+          <Link to="/cart" className="btn btn-primary">Go to Watches</Link>
         </div>
       </div>
           </div>
@@ -68,7 +74,7 @@ function HomeComponents() {
         <div className="card-body">
           <h5 className="card-title">Male Shoes</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <Link to="/" className="btn btn-primary">Go to Male Shoes</Link>
+          <Link to="/cart" className="btn btn-primary">Go to Male Shoes</Link>
         </div>
       </div>
           </div>
@@ -78,13 +84,14 @@ function HomeComponents() {
         <div className="card-body">
           <h5 className="card-title">Female Shoes</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <Link to="/" className="btn btn-primary">Go to Female Shoes</Link>
+          <Link to="/cart" className="btn btn-primary">Go to Female Shoes</Link>
         </div>
       </div>
           </div>
         </div>
       </div>
       <FooterComponents/>
+      {/* <BodyComponent/> */}
       </React.Fragment>
   )
 }

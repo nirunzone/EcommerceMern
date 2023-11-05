@@ -36,7 +36,7 @@ function RegisterComponents() {
     return (
         <div>
             <HeaderComponents/>
-            <div className="container mt-3 mb-5">
+            <div className="container mt-0 mb-5">
                 <div className="row">
                     <div className="col-md-12 mb-3">
                         <h1>Register</h1>
